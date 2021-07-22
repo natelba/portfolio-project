@@ -1,0 +1,15 @@
+body {
+    
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-weight: 500;
+    font-size: 64px;
+}
+
+p {
+    font-family: 'Lusitana', serif;
+}
