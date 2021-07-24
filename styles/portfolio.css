@@ -1,19 +1,53 @@
+:root {
+    --branding-color: #6c63ff;
+    --secondary-color: #F9F7FE;
+    --heading-font-family: 'Satisfy', cursive;
+    --default-font-family: 'Lusitana', serif;
+}
+
 body {
+    font-family: var(--default-font-family);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: black;
+    font-family: var(--heading-font-family);
+    font-weight: bold;
     
 }
 
 h1 {
-    color: black;
-    text-align: center;
-    font-family: 'Satisfy', cursive;
-    font-weight: 500;
-    font-size: 64px;
+    font-size: 96px;
 }
 
 p {
-    font-family: 'Lusitana', serif;
+    font-weight: normal;
 }
 
-title {
-    font-family: 'Satisfy', cursive;
+.hero {
+    background: var(--secondary-color);
+    text-align: center;
+    padding: 160px 20px;
+}
+
+.hero p {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+    color: #272142;
+}
+
+.hero h2 {
+    font-family: var(--heading-font-family);
+    font-size: 24px;
+    line-height: 2  ;
+}
+
+.btn-branding {
+    background: var(--branding-color);
+    color: white;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
 }
