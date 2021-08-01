@@ -98,6 +98,36 @@ h2 {
     font-size: 64px;
 }
 
+.logo {
+    max-height: 40px;
+}
+
+nav {
+    padding: 20px 0;
+}
+
+nav ul {
+    padding: none;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+    line-height: 42px;
+    margin-left: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #272142;
+    transition: all 100ms ease-in-out;
+}
+
+nav a :hover, nav li.active a{
+    color: var(--branding-color);
+}
+
 @media (max-width: 960px) {
     .project-description {
         padding: 0;
@@ -123,5 +153,9 @@ h2 {
     .content-container {
         text-align: center;
         padding: 0;
+    }
+
+    nav a {
+        font-size: 14px;
     }
 }
