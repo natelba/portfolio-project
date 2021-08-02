@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Natalia Guardia</title>
-    <meta name="description" content="">
+    <title>About - Natalia Guardia</title>
+    <meta name="description" content="Natalia Guardia is a trained frontend engineer based in NYC and New Jersey area.">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,12 +23,16 @@
 <body>
     <div class="container">
         <nav class="d-flex justify-content-between">
-            <img src="images/shecodes-logo.png" alt="SheCodes" class="logo">
+            <a href="/">
+                <img src="images/shecodes-logo.png" alt="SheCodes" class="logo d-none d-md-block ">
+                <img src="images/logo-small.jpg" alt="small-logo" class="logo d-block d-md-none">
+            </a>
+            
             <ul>
-                <li><a href="/">home</a></li>
-                <li class="active"><a href="about.html">about</a></li>
-                <li><a href="work.html">work</a></li>
-                <li><a href="contact.html">contact</a></li>
+                <li><a href="/" title="home page">home</a></li>
+                <li class="active"><a href="about.html" title="about Natalia">about</a></li>
+                <li><a href="work.html" title="Natalia's work">work</a></li>
+                <li><a href="contact.html" title="contact">contact</a></li>
             </ul>
         </nav>
         
@@ -44,15 +48,53 @@
                         You will be challenged with different exercises, and everything is well explained,
                         with weekly homework and deadlines to keep you focused.
                     </p>
-                    <a href="" class="btn btn-branding">See My Projects</a>
+                    <a href="/work.html" title="See my projects" class="btn btn-branding">See My Projects</a>
                 </div>
             </div>
             <div class="col-lg-6">
-                <img src="images/headshot-portfolio.jpg" alt="" class="img-fluid">
+                <img src="images/headshot-portfolio.jpg" alt="Natalia" class="img-fluid">
             </div>
         </div>
         
         
+    </div>
+    <div class="container">
+        <footer>
+            <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+                <div>
+                   <h4>Work Inquiry</h4>
+                    <p class="text-muted">
+                        Let's work together
+                    </p> 
+                </div>
+                <div>
+                    <a href="/contact.html" class="btn btn-branding mt-3" title="Contact Natalia">
+                        Contact Me
+                    </a>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center mb-3">
+                <a href="mailto:natguardia@gmail.com" class="email-link" title="email">natguardia@gmail.com</a>
+            </div>
+            
+            <div class="social-links d-flex justify-content-center mb-5">
+                <a href="https://instagram.com/nataliaelba/" target="_blank" title="instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/natalia-guardia/" target="_blank" title="linkedin">
+                   <i class="fab fa-linkedin-in"></i> 
+                </a>
+                <a href="https://twitter.com/nati3g" target="_blank" title="twitter">
+                   <i class="fab fa-twitter"></i> 
+                </a>
+                <a href="https://github.com/natelba" target="_blank" title="github">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div> 
+            <p class="text-center mt-4">
+                🖖 This project was created by Natalia Guardia and is <a href="https://github.com/natelba/portfolio-project" class="" title="GitHub">opened-source</a>.
+            </p>
+        </footer>
     </div>
 </body>
 </html>
